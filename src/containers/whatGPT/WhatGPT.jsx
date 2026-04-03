@@ -6,7 +6,7 @@ const WhatGPT = () => {
   return (
     <div className='whatgpt section_margin' id='whatgpt'>
       <div className='whatgpt_features'>
-        <Features title="What is GPT-3" text="We so opinion friends me message as delight. Whole front do of plate heard oh ought. His defective nor convinced residence own. Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by."/>
+        <Features title="What is GPT-4" text="We so opinion friends me message as delight. Whole front do of plate heard oh ought. His defective nor convinced residence own. Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by."/>
       </div>
       <div className='whatgpt_heading'>
         <h1 className='gradient_text'>The possibilities are beyond your imagination</h1>

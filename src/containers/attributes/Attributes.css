@@ -30,6 +30,13 @@
     font-weight: 500;
     line-height: 30px;
     margin-top: 2rem;
+    cursor: pointer;
+    transition: color 220ms ease, transform 220ms ease;
+}
+
+.attributes_heading p:hover {
+    color: #ffc2b6;
+    transform: translateX(3px);
 }
 
 .attributes_features_container{

@@ -15,29 +15,29 @@ const Blog = () => {
         <div className="blog_container_groupA">
           <Articles 
             imgUrl={blog01} 
-            title="GPT-3 and Open  AI is the future. Let us exlore how it is?"
+            title="GPT-4 and Open  AI is the future. Let us exlore how it is?"
             text="Feb 08, 2023"
           />
         </div>
         <div className="blog_container_groupB">
         <Articles 
             imgUrl={blog02} 
-            title="GPT-3 and Open  AI is the future. Let us exlore how it is?"
+            title="GPT-4 and Open  AI is the future. Let us exlore how it is?"
             text="Jul 03, 2023"
           />
           <Articles 
             imgUrl={blog03} 
-            title="GPT-3 and Open  AI is the future. Let us exlore how it is?"
+            title="GPT-4 and Open  AI is the future. Let us exlore how it is?"
             text="Aug 09, 2023"
           />
           <Articles 
             imgUrl={blog04} 
-            title="GPT-3 and Open  AI is the future. Let us exlore how it is?"
+            title="GPT-4 and Open  AI is the future. Let us exlore how it is?"
             text="Nov 03, 2023"
           />
           <Articles 
             imgUrl={blog05} 
-            title="GPT-3 and Open  AI is the future. Let us exlore how it is?"
+            title="GPT-4 and Open  AI is the future. Let us exlore how it is?"
             text="Nov 12, 2023"
           />
         </div>

@@ -15,6 +15,11 @@
 .possibility_image img{
     width: 100%;
     height: 100%;
+    transition: transform 320ms ease;
+}
+
+.possibility_image img:hover{
+    transform: translateY(-6px) scale(1.01);
 }
 
 .possibility_content{
@@ -38,7 +43,13 @@
     font-family: var(--font-family);
     font-size: 16px;
     font-weight: 500;
-    line-height: 30px; /* 187.5% */
+    line-height: 30px;
+    transition: color 220ms ease;
+    cursor: pointer;
+}
+
+.possibility_content h4:last-child:hover{
+    color: #ffc2b6;
 }
 
 .possibility_content h1{

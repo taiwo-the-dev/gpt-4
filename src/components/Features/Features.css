@@ -6,6 +6,11 @@
     flex-direction: row;
 
     margin: 1rem;
+    transition: transform 260ms ease;
+}
+
+.features_container_feature:hover{
+    transform: translateY(-4px);
 }
 
 .features_container_feature_title{
@@ -31,6 +36,11 @@
     background: var(--gradient-bar);
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     margin-bottom: 0.25rem;
+    transition: width 260ms ease;
+}
+
+.features_container_feature:hover .features_container_feature_title div{
+    width: 56px;
 }
 
 .features_container_feature_text{

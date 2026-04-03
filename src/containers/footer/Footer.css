@@ -31,6 +31,13 @@
     text-align: center;
     margin-bottom: 10rem;
     cursor: pointer;
+    transition: transform 240ms ease, box-shadow 240ms ease, border-color 240ms ease;
+}
+
+.footer_btn:hover{
+    transform: translateY(-3px);
+    border-color: #FF8A71;
+    box-shadow: 0 12px 22px rgba(0, 0, 0, 0.22);
 }
 
 .footer_btn p {
@@ -68,6 +75,7 @@
     height: 30px;
 
     margin-bottom: 1rem;
+    animation: float-y 7s ease-in-out infinite;
 }
 
 .footer_links_logo p {
@@ -100,6 +108,12 @@
 
     margin: 0.5rem 0;
     cursor: pointer;
+    transition: color 220ms ease, transform 220ms ease;
+}
+
+.footer_links_div p:hover{
+    color: #FF8A71;
+    transform: translateX(4px);
 }
 
 .footer_copyright{
@@ -145,4 +159,3 @@
         line-height: 38px;
     }
 }
-

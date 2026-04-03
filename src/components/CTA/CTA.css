@@ -9,6 +9,14 @@
     border-radius: 1rem;
 
     background: var(--gradient-bar);
+    background-size: 150% 150%;
+    animation: gradient-shift 10s ease-in-out infinite;
+    transition: transform 280ms ease, box-shadow 280ms ease;
+}
+
+.cta:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 20px 32px rgba(0, 0, 0, 0.28);
 }
 
 .cta_content p{
@@ -46,6 +54,13 @@
     border: none;
     cursor: pointer;
     min-width: 150px;
+    transition: transform 240ms ease, box-shadow 240ms ease, background-color 240ms ease;
+}
+
+.cta_button button:hover{
+    transform: translateY(-2px);
+    background-color: #111;
+    box-shadow: 0 10px 18px rgba(0, 0, 0, 0.25);
 }
 
 @media screen and (max-width: 650px) {

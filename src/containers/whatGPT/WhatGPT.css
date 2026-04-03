@@ -49,6 +49,12 @@
     font-weight: 500;
     line-height: 30px;
     cursor: pointer;
+    transition: color 220ms ease, transform 220ms ease;
+}
+
+.whatgpt_heading p:hover {
+    color: #ffc2b6;
+    transform: translateX(3px);
 }
 
 .whatgpt_container{
@@ -65,7 +71,7 @@
     flex-direction: column;
 }
 
-.whatgpt3-container .features-container_feature_text {
+.whatgpt_container .features_container_feature_text {
     margin-top: 0.5rem;
 }
 

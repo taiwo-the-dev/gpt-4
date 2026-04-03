@@ -1,4 +1,3 @@
-import Reac9t from 'react'
 import {RiMenu3Line, RiCloseLine} from 'react-icons/ri';
 import './Navbar.css';
 import logo from '../../assets/logo.svg';

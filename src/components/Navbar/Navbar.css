@@ -3,6 +3,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 2rem 6rem;
+    animation: fade-slide-up 700ms ease both;
+    animation-delay: 80ms;
 }
 
 .navbar_links{
@@ -46,6 +48,12 @@
 .navbar_links p a, .navbar_menu_links p a {
     text-decoration: none;
     color: #fff;
+    transition: opacity 220ms ease, color 220ms ease;
+}
+
+.navbar_links p a:hover, .navbar_menu_links p a:hover {
+    color: #FF8A71;
+    opacity: 0.95;
 }
 
 .navbar_sign button, .navbar_menu_sign button{
@@ -60,6 +68,13 @@
     outline: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: transform 240ms ease, box-shadow 240ms ease, background-color 240ms ease;
+}
+
+.navbar_sign button:hover, .navbar_menu_sign button:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(255, 72, 32, 0.35);
+    background-color: #ff5a36;
 }
 
 .navbar_menu{
@@ -70,6 +85,11 @@
 
 .navbar_menu svg{
     cursor: pointer;
+    transition: transform 200ms ease;
+}
+
+.navbar_menu svg:hover{
+    transform: rotate(8deg) scale(1.05);
 }
 
 .navbar_menu_container{
@@ -87,6 +107,7 @@
     min-width: 200px;
     border-radius: 5px;
     box-shadow: 0 0 5 rgb(0, 0, 0 ,0.2);
+    border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .navbar_menu_container p {
